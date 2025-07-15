@@ -42,6 +42,20 @@ With minimal abstractions and carefully structured logic, it supports a growing 
 ```bash
 git clone https://github.com/yourusername/bare-ml.git
 cd bare-ml
+
+# Create virtual environment (name it .venv or venv)
+python -m venv .venv
+
+# Activate (Windows)
+.venv\Scripts\activate
+
+# Activate (Linux/Mac)
+source .venv/bin/activate
+
+# Now install your dependencies
+pip install -r requirement.txt
+
+# start the program
 python main.py
 ```
 
